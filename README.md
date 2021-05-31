@@ -1,1 +1,1 @@
-Complete Ruby On Rails Developer
+First test repo on the Complete Ruby On Rails Developer course by Huu Cuong
