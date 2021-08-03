@@ -14,7 +14,7 @@ class ArticlesTest < ApplicationSystemTestCase
     visit articles_url
     click_on "New Article"
 
-    fill_in "Desciption", with: @article.desciption
+    fill_in "Description", with: @article.description
     fill_in "Title", with: @article.title
     click_on "Create Article"
 
@@ -26,7 +26,7 @@ class ArticlesTest < ApplicationSystemTestCase
     visit articles_url
     click_on "Edit", match: :first
 
-    fill_in "Desciption", with: @article.desciption
+    fill_in "Description", with: @article.description
     fill_in "Title", with: @article.title
     click_on "Update Article"
 
